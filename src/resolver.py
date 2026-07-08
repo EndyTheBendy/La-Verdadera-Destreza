@@ -40,7 +40,7 @@ def resolve_turn(left: Fencer, right: Fencer):
             print("The fighters stand apart.")
             match flavour_rng:
                 case 1:
-                    print(f"{observer.name}'s legs shift their weight amongst each other...")
+                    print(f"{observer.name}'s legs shift their weight between each other...")
                 case 2:
                     print("Tips touch sparingly, the clinks breaking otherwise undisturbed silence...")
                 case 3:
